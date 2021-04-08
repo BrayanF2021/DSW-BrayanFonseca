@@ -1,0 +1,76 @@
+header{
+    background-color: rgb(226, 86, 5);
+    padding: 20px;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
+section{
+    float: left;
+    width: 75%;
+    background-color: chocolate;
+}
+aside{
+    float: left;
+    width: 25%;
+    background-color: rgb(24, 67, 131);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu-area a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: black;
+    height: 50px;
+    text-decoration: none;
+}
+
+.menu-area a:hover {
+    background: tomato;
+    color: #fff;
+
+}
+
+.menu-area ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-area li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-area li:hover .dropdown-1>li {
+    top: 0;
+    display: block;
+}
+
+.dropdown-1 li {
+    display: none;
+    position: relative;
+}
+
+.dropdown-1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dropdown-1 li:hover {
+    display: block;
+}
