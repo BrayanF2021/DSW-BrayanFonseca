@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(226, 86, 5);
+    background-color: chocolate;
     padding: 20px;
 }
 nav{
@@ -15,7 +15,7 @@ section{
 aside{
     float: left;
     width: 25%;
-    background-color: rgb(24, 67, 131);
+    background-color:chocolate;
 }
 footer{
     background-color: black;
